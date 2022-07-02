@@ -1,0 +1,152 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.head {
+    background-image: url(images/guell.png);
+    background-size: cover;
+    width: 720px;
+    height: 343px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0 auto 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #FFFFFF;
+    background-color: #4FABD5;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4FABD5;
+    width: 412px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1D3557;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D3557
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #1D3557;
+
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #1D3557;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #1D3557;
+    margin: 0px 18px;
+}
+
+.visitboard {
+    margin: 0px auto 0px auto;
+    width: 720px;
+    height: 343px;
+    background: #F1FAEE;
+}
+
+.visitboard-box {
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    align-content: center;   
+}
+
+.img-visit {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.bottom {
+    
+    margin: 50px auto 0px auto;
+    width: 720px;
+    height: 394px;
+    top: 686px;
+    background: #FFFFFF;
+}
+
+#avatar-img {
+    width: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card {
+    width: 400px;
+    height: 294px; 
+    background-color: #89C5E1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 0px #1D3557;
+}
+
+.visit-card {
+    width: 200px;
+}
+
+.blue-line {
+    border: dotted 1px blue;
+}
